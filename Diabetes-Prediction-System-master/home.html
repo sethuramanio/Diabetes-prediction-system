@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetes Prediction</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script language="JavaScript" type="text/javascript" src="script/jquery.js"></script>
+    <script type="text/javascript" src="script/home.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Diabates Prediction</h2>
+    </header>
+    
+    <div id="division">
+        <form onsubmit = "post();">
+
+            <p>
+                <b>Pregnancies: </b>
+                <input type="text" id="Pregnancies" name="Pregnancies">
+            </p>
+            <p>
+                <b>Glucose: </b>
+                <input type="text" id="Glucose" name="Glucose"></p>
+            <p>
+                <b>BloodPressure: </b>
+                <input type="text" id="BloodPressure" name="BloodPressure">
+            </p>
+            <p>
+                <b>SkinThickness: </b>
+                <input type="text" id="SkinThickness" name="SkinThickness">
+            </p>
+            <p>
+                <b>Insulin: </b>
+                <input type="text" id="Insulin" name="Insulin">
+            </p>
+            <p>
+                <b>BMI: </b>
+                <input type="text" id="BMI" name="BMI">
+            </p>
+            
+            <p>
+                <b>Dpf: </b>
+                <input type="text" id="Dpf" name="Dpf">
+            </p>
+            <p>
+                <b>Age: </b>
+                <input type="text" id="Age" name="Age">
+            </p>
+            <input id="click" type="button" value="Submit">
+            <br>
+            <p id="outcome"></p>
+        </form>
+    </div>
+
+
+</body>
+</html>
